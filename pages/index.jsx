@@ -48,7 +48,7 @@ const  Home= () => {
   return (
         <Container>
             <div className="w-full flex flex-row justify-center">
-                <div className="w-4/5 flex flex-col">
+                <div className="w-4/5 flex flex-col ">
 
                     {productos && showProducts()}
                 </div>
