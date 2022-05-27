@@ -10,6 +10,7 @@ const Container= (props) => {
             </Head>
             <NavBar/>
             <div className="font-mono">
+                {/* eslint-disable-next-line react/prop-types */}
                 {props.children}
             </div>
         </div>

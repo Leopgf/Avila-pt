@@ -2,7 +2,6 @@ import {useEffect, useState} from "react";
 import Link from "next/link";
 
 import Container from "../components/Container";
-import Head from "next/head";
 import {useQuery} from "@apollo/client";
 import {GET_PRODUCTS} from "../graphql/queries";
 
