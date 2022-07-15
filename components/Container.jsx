@@ -12,6 +12,7 @@ const Container= (props) => {
             <div className="font-mono">
                 {/* eslint-disable-next-line react/prop-types */}
                 {props.children}
+                <p> Prueba con exito</p>
             </div>
         </div>
 
